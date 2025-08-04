@@ -1,0 +1,49 @@
+@startuml
+title MVP Открытие депозитов онлайн - Контекстная диаграмма
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/refs/heads/master/C4_Container.puml
+
+Person_Ext(customer, "Клиент", "Клиент банка")
+Person(employeeBackOffice, "Сотрудник бэк-офиса", "Обработка заявок в АБС")
+
+Container_Boundary(abs, "АБС") {
+    Container(absDesktopApp, "Клиентское приложение АБС", "Delphi", "")
+    Container(absReceiver, "Приёмщик заявок из брокера", "Java", "")
+    Container(smsGate, "СМС-шлюз", "Java", "Отправка уведомлений клиентам")
+    ContainerDb(absDb, "БД АБС", "Oracle", "Хранение данных, логика на хранимых процедурах")
+}
+
+ContainerQueue(broker, "Брокер сообщений", "Kafka", "Асинхронный обмен сообщениями")
+
+Container_Boundary(internetBank, "Интернет-банк") {
+    Container(site, "Сайт", "PHP, React.JS", "")
+    Container(apiGateway, "Api Gateway", "Kong", "Роутинг, рейтлимитинг")
+    Container(internetBankWeb, "Веб-интерфейс", "ASP.NET MVC", "")
+    Container(depositService, "Сервис открытия депозитов", "ASP.NET MVC", "")
+    Container(cache, "Кэш", "redis")
+
+    ContainerDb(siteDb, "БД Сайта", "MSSQL", "Хранение данных")
+}
+
+
+Rel(employeeBackOffice, absDesktopApp, "Обработка заявки в АБС")
+Rel(absDesktopApp, absDb, "Обработка заявки")
+Rel(absReceiver, absDb, "Запись заявок в БД")
+Rel(absReceiver, broker, "Приём заявок")
+
+
+Rel(customer, apiGateway, "Просмотре депозитов, создание заявки")
+Rel(apiGateway, internetBankWeb, "[REST]",)
+Rel(apiGateway, site, "[REST]")
+
+Rel(site, siteDb, "Запись данных")
+Rel(site, depositService, "Оформление заявки")
+Rel(internetBankWeb, depositService, "Оформление заявки")
+Rel(depositService, siteDb, "Запись данных")
+Rel(depositService, broker, "Отправка заявок")
+Rel(depositService, cache, "Кэширование")
+Rel(absDb, smsGate, "Отправка уведомления с условиями и ставкой депозита")
+
+@enduml
