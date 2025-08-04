@@ -1,0 +1,124 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="A6BDwj9-TkVas7W6s6tt">
+    <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="1200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="1200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="1200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="1200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="1200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1120" width="1200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="120" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-14" value="&lt;div&gt;Система&lt;/div&gt;&lt;div&gt;телеком-оператора&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-1" value="Продажи в сети отделений" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-4" value="Кол-центр" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="380" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-6" value="IT-отдел" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="980" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-7" value="Управление обслуживанием депозитных продуктов" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="780" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-8" value="Управление обслуживанием кредитных продуктов" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="580" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-11" value="Интернет-банк" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-13" value="Смс-шлюз&lt;div&gt;телеком-оператора&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-16" value="Отделение банка" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="180" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-17" value="&lt;div&gt;Обработка кредитных процессов&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-18" value="Excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-19" value="Электронная почта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-20" value="&lt;div&gt;Продажи через кол-центр&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-12" value="Автоматизированная&amp;nbsp;&lt;div&gt;банковская система&lt;div&gt;(АБС)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-22" value="Excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-23" value="Электронная почта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-32" value="Электронная почта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-34" value="&lt;div&gt;Обработка депозитных процессов&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-36" value="&lt;div&gt;Управление договорами&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-38" value="Digital-оповещения клиентов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-39" value="Автоматизированная&amp;nbsp;&lt;div&gt;банковская система&lt;div&gt;(АБС)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-43" value="Excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="745" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-44" value="Электронная почта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="795" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-45" value="Автоматизированная&amp;nbsp;&lt;div&gt;банковская система&lt;div&gt;(АБС)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="845" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-46" value="Автоматизированная&amp;nbsp;&lt;div&gt;банковская система&lt;div&gt;(АБС)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2bEsp_f9rbMelp1hZP9-47" value="Команда цифровой трансформации" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1180" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
