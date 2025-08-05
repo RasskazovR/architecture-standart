@@ -1,0 +1,30 @@
+@startuml
+title Передача ставок в кол-центр - Контекстная диаграмма
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/refs/heads/master/C4_Context.puml
+
+Person_Ext(customer, "Клиент", "Пожилой клиент")
+Person_Ext(extCcEmployee, "Сотрудник партнёрского кол-центра", "Консультирование клиентов")
+Person(ccEmployee, "Сотрудник кол-центра", "Консультирование клиентов")
+
+System(standart, "Стандарт", "Системы банка Стандарт", "")
+
+System(cc, "Кол-центр", "CRM")
+System_Ext(ссExt, "Партнерский кол-центр", "Приём звонков", "")
+System_Ext(ссExt, "Партнерский кол-центр", "Приём звонков", "")
+System_Ext(email, "Почтовый сервис", "Электронная почта", "")
+
+Rel(customer, cc, "Звонит")
+Rel(customer, ссExt, "Звонит")
+
+Rel(cc, standart, "Получение данных о ставках по API")
+Rel(ссExt, email, "Получение файлов с данными о ставках по почте")
+
+Rel(ccEmployee, cc, "Обрабатывает звонок")
+Rel(extCcEmployee, ссExt, "Обрабатывает звонок")
+
+Rel(standart, email, "Отправка файлов с данными по ставкам")
+
+@enduml

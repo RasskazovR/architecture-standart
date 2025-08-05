@@ -1,0 +1,78 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="drOO9LwArcy8uRbXr-kz">
+    <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3qAHfcr1YTJPKrJtHKaB-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="778.02" width="1000" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3qAHfcr1YTJPKrJtHKaB-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="542.11" width="1000" height="216.25" as="geometry" />
+        </mxCell>
+        <mxCell id="3qAHfcr1YTJPKrJtHKaB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="1000" height="240.79" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=46;endSize=27.44666666666667;width=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="230" as="sourcePoint" />
+            <mxPoint x="1120" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-24" value="Q4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=19;labelBackgroundColor=none;" parent="AgyKP2Gu1kKib5UQw0mA-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.1057" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-2" value="Сервис депозитов" style="rounded=0;whiteSpace=wrap;html=1;direction=west;rotation=270;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-42.03" y="362.04" width="244.07" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-3" value="Проектирование API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="162.5" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-4" value="Разработка формата файлов со ставками" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="162.5" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-6" value="Разработка API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-7" value="Интеграция с почтовым сервисом для&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;рассылки файлов&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="442.5" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-8" value="Разработка модуля формирования файлов" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-9" value="Кол-центр" style="rounded=0;whiteSpace=wrap;html=1;direction=west;rotation=270;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-28.52" y="611.48" width="217.04" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-10" value="Проектирование UI для ставок по депозитам" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="543.75" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-11" value="Проектирование интеграции с API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="583.75" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-12" value="Разработка UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="442.5" y="623.75" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-13" value="Разработка модуля интеграции" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="442.5" y="663.75" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-15" value="Партнёрский&lt;div&gt;кол-центр&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=west;rotation=270;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-14.25" y="834.27" width="188.52" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-16" value="Интеграция с почтовым сервисом для получения файлов" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="700" y="840" width="207.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-19" value="Тестирование" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="582.5" y="703.75" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-20" value="Тестирование" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="907.5" y="880" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyKP2Gu1kKib5UQw0mA-21" value="Тестирование" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="582.5" y="480" width="117.5" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

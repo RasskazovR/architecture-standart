@@ -1,0 +1,55 @@
+@startuml
+title Передача ставок в кол-центр - Контекстная диаграмма
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/refs/heads/master/C4_Container.puml
+
+Person_Ext(customer, "Клиент", "Пожилой клиент")
+Person_Ext(extCcEmployee, "Сотрудник партнёрского кол-центра", "Консультирование клиентов")
+Person(ccEmployee, "Сотрудник кол-центра", "Консультирование клиентов")
+
+System(cc, "Кол-центр", "CRM")
+System_Ext(ссExt, "Партнерский кол-центр", "Приём звонков", "")
+System_Ext(ссExt, "Партнерский кол-центр", "Приём звонков", "")
+System_Ext(email, "Почтовый сервис", "Электронная почта", "")
+
+Container_Boundary(abs, "АБС") {
+    ContainerDb(absDb, "БД АБС", "Oracle", "Хранение данных, логика на хранимых процедурах")
+    Container(absBrokerIntegration, "Сервис работы с брокером", "")
+}
+
+ContainerQueue(broker, "Брокер сообщений", "Kafka", "Асинхронный обмен сообщениями")
+
+Container_Boundary(internetBank, "Интернет-банк") {
+    Container(apiGateway, "Api Gateway", "Kong", "Роутинг, рейтлимитинг")
+    Container(depositService, "Сервис открытия депозитов", "ASP.NET MVC", "")
+    Container(cache, "Кэш", "redis")
+    ContainerDb(siteDb, "БД Сайта", "MSSQL", "Хранение данных")
+}
+
+
+Rel(absDb, absBrokerIntegration, "Отправка данных по ставкам")
+Rel(absBrokerIntegration, broker, "Отправка данных по ставкам")
+
+
+Rel(apiGateway, depositService, "[REST]",)
+
+Rel(depositService, siteDb, "Запись данных")
+Rel(depositService, broker, "Приём данных по ставкам")
+Rel(depositService, cache, "Кэширование")
+
+
+
+Rel(customer, cc, "Звонит")
+Rel(customer, ссExt, "Звонит")
+
+Rel(cc, apiGateway, "Получение данных о ставках по API")
+Rel(ссExt, email, "Получение файлов с данными о ставках по почте")
+
+Rel(ccEmployee, cc, "Обрабатывает звонок")
+Rel(extCcEmployee, ссExt, "Обрабатывает звонок")
+
+Rel(depositService, email, "Отправка файлов с данными по ставкам")
+
+@enduml
