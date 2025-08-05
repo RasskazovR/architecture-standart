@@ -1,0 +1,25 @@
+@startuml
+title MVP Открытие депозитов онлайн - Контекстная диаграмма
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/refs/heads/master/C4_Context.puml
+
+Person_Ext(customer, "Клиент", "Клиент банка")
+Person(employeeBackOffice, "Сотрудник бэк-офиса", "Обработка заявок в АБС")
+
+System_Boundary(border, "Стандарт") {
+    System(internetBank, "Интернет банк", "Открытие депозитов онлайн")
+    System(abs, "АБС", "Обработка заявок, расчёт условий и ставок", "")
+    System(smsGate, "СМС-шлюз", "Отправка уведомлений")
+    System(broker, "Брокер сообщений", "Асинхронный обмен сообщениями")
+}
+
+Rel(customer, internetBank, "Создание заявки на депозит")
+Rel(employeeBackOffice, abs, "Обработка заявки в АБС")
+
+Rel(internetBank, broker, "Отправка заявки")
+Rel(abs, broker, "Приём заявок")
+Rel(abs, smsGate, "Отправка уведомлений")
+
+@enduml
